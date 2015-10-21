@@ -1,6 +1,9 @@
 # About ReactJS
 Content copied and summarized from [https://scotch.io/tutorials/learning-react-getting-started-and-concepts](Scotch.io's ReactJS Getting Started Guide)
 
+## Overview
+ - [https://blog.risingstack.com/the-react-way-getting-started-tutorial]
+
 ## Efficient modification of virtual DOM
  - Runs a reconciliation method that updates the virtual DOM (which can be output by the Server as a React View)
 
