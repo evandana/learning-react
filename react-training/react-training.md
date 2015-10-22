@@ -5,11 +5,7 @@
 	- Ryan Florence
 	- Why React
 	- Stocks VS. Flows
-- ES6
-	- Import
-	- Fat arrow functions
-	- Import
-	- Restructuring
+	- ES6
 - React Basics
 	- Events
 	- React.render()
@@ -57,16 +53,12 @@
  	- Must experience it to understand it (add time)
  	- Quote from Djikstra on dynamic process
 
-# ES6
-
-## Import
-
-## Fat arrow functions
-
-## Import
-
-## Restructuring
- - var { select, option } = React.DOM // grabs those two props from React.DOM and sets the two vars to those values
+## ES6
+ - Import
+ - Fat arrow functions
+ - Import
+ - Restructuring
+ 	- var { select, option } = React.DOM // grabs those two props from React.DOM and sets the two vars to those values
 
 # React Basics
 
@@ -92,12 +84,23 @@
  	- `render`
  - props
  	- `this.props.propName`
- 	- `this.props.children`
- 	- children can be other components
- ```javascript
- 	React.render(<ComponentName propName="value"/>, element);
- 	React.render(<ComponentName/><div>child</div></ComponentName>, element);
- ```
+ 	- `props.*`
+ 	- `props.children`
+ 		- children can be other components
+	```javascript
+	 	React.render(<ComponentName propName="value"/>, element);
+	 	React.render(<ComponentName/><div>child</div></ComponentName>, element);
+	```
+ 	- `propTypes` (*interface*! - what JS has been lacking!)
+ 		- essentially interface documentation, but shows warnings in console on errors
+ 		- can be enforced with `ESLint`
+	```javascript
+	 	propTypes: {
+	 		title: React.PropTypes.string.isRequired,
+	 		children: React.PropTypes.any,
+	 		onToggle: React.PropTypes.func
+	 	}
+	```
 
 # Career Growth
 
@@ -118,4 +121,5 @@ Learn **VIM** and **MacVIM** and become a power-user
  3. `npm install` (never use `sudo`)
  ## $0 gets the element sleected in Chrome dev tools
  ## add `debugger` into code and then you can see the function calls it gets turned into
+ 4. **Poor man's debugger**: `<pre>{JSON.stringify(state, null, 2)}</pre>`
 
