@@ -34,7 +34,7 @@
 <a name="ryan-florence"></a>
 ## Ryan Florence
  - From Boston
- - CanvasLMS, Blackboard, EmberJS
+ - CanvasLMS, Blackboard, EmberJS, react-router
 
 <a name="why-react"></a>
 ## Why React
