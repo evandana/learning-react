@@ -1,24 +1,24 @@
 <!-- MarkdownTOC -->
 
-- [Intro][intro]
-	- [Michael Jackson][michael-jackson]
-	- [Ryan Florence][ryan-florence]
-	- [Why React][why-react]
-	- [Stocks VS. Flows][stocks-vs-flows]
-	- [ES6][es6]
-- [React Basics][react-basics]
-	- [Events][events]
-	- [React.render()][reactrender]
-	- [State][state]
-	- [Components][components]
-- [Props VS State][props-vs-state]
-- [Testing][testing]
-- [Career Growth][career-growth]
-	- [Exciting things to focus on][exciting-things-to-focus-on]
-- [Tools][tools]
-- [General Tips][general-tips]
-	- [To fix `sudo npm install`][to-fix-sudo-npm-install]
-	- [Questions][questions]
+- [Intro](intro)
+    - [Michael Jackson](michael-jackson)
+    - [Ryan Florence](ryan-florence)
+    - [Why React](why-react)
+    - [Stocks VS. Flows](stocks-vs-flows)
+    - [ES6](es6)
+- [React Basics](react-basics)
+    - [Events](events)
+    - [React.render()](reactrender)
+    - [State](state)
+    - [Components](components)
+- [Props VS State](props-vs-state)
+- [Testing](testing)
+- [Career Growth](career-growth)
+    - [Exciting things to focus on](exciting-things-to-focus-on)
+- [Tools](tools)
+- [General Tips](general-tips)
+    - [To fix `sudo npm install`](to-fix-sudo-npm-install)
+    - [Questions](questions)
 
 <!-- /MarkdownTOC -->
 [./react-fundamentals](local react-fundamentals folder)
