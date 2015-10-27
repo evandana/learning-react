@@ -170,6 +170,7 @@ Learn **VIM** and **MacVIM** and become a power-user
  1. `sudo rm -rf ~/.npm`
  2. Repeat for `node_modules` and any other affected directories
  3. `npm install` (never use `sudo`)
+
  ## $0 gets the element sleected in Chrome dev tools
  ## add `debugger` into code and then you can see the function calls it gets turned into
  4. **Poor man's debugger**: `<pre>{JSON.stringify(state, null, 2)}</pre>`
