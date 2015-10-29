@@ -2,6 +2,8 @@
 
 Documenting the process of learning ReactJS
 
+**working on fixing github internal links**
+
 # TOC
 <!-- MarkdownTOC -->
 
