@@ -9,6 +9,7 @@
 
 <a name="criteria"></a>
 # Criteria
+
  - Webpack
  - Smart router
  - ES6 transpilation
@@ -16,6 +17,7 @@
 
 <a name="options"></a>
 # Options
+
  - [react-starter][react-starter]
  - [react-webpack-boilerplate][react-webpack-boilerplate]
 

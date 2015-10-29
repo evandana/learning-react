@@ -6,6 +6,7 @@ Documenting the process of learning ReactJS
 <!-- MarkdownTOC -->
 
 - [Notes](#notes)
+    - [Choosing React-webpack-boilerplate](#choosing-react-webpack-boilerplate)
     - [Resources](#resources)
     - [ReactJS Training Notes (2016/10/22)](#reactjs-training-notes-20161022)
 - [Exercises](#exercises)
@@ -16,8 +17,22 @@ Documenting the process of learning ReactJS
 <a name="notes"></a>
 # Notes
 
+<a name="choosing-react-webpack-boilerplate"></a>
+## Choosing React-webpack-boilerplate
+
+ - [https://github.com/evandana/learning-react/blob/master/playbox/choosing-boilerplate.md](Chooing a boilerplate)
+
+Options
+
+ - [react-starter][react-starter]
+ - [react-webpack-boilerplate][react-webpack-boilerplate]
+
+[react-starter]: https://github.com/webpack/react-starter
+[react-webpack-boilerplate]: https://github.com/srn/react-webpack-boilerplate
+
 <a name="resources"></a>
 ## Resources
+
  - [https://github.com/evandana/learning-react/blob/master/react-overview.md](React Overview Notes)
  - [https://github.com/evandana/learning-react/blob/master/learning-resources.md](Resource list)
 
