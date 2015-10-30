@@ -1,5 +1,5 @@
 # About ReactJS
-Content copied and summarized from [https://scotch.io/tutorials/learning-react-getting-started-and-concepts](Scotch.io's ReactJS Getting Started Guide)
+Content copied and summarized from [Scotch.io's ReactJS Getting Started Guide](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
 
 ## Overview
  - [https://blog.risingstack.com/the-react-way-getting-started-tutorial]

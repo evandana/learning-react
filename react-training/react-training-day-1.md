@@ -21,7 +21,7 @@
     - [Questions](#questions)
 
 <!-- /MarkdownTOC -->
-[./react-fundamentals](local react-fundamentals folder)
+[local react-fundamentals folder](./react-fundamentals)
 
 <a name="intro"></a>
 # Intro

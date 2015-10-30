@@ -1,14 +1,14 @@
 ## Learning
- - [http://jsfiddle.net/vjeux/kb3gN/](ReactJS Fiddle) - Good basic introduction to elements
- - [https://scotch.io/tutorials/learning-react-getting-started-and-concepts](Getting Started)
- - [https://facebook.github.io/flux/docs/todo-list.html](Flux)
+ - [ReactJS Fiddle](http://jsfiddle.net/vjeux/kb3gN/) - Good basic introduction to elements
+ - [Getting Started](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
+ - [Flux](https://facebook.github.io/flux/docs/todo-list.html)
 
 ## Books
- - Safari Books [http://techbus.safaribooksonline.com/search?q=react](search for React)
- - Pluralsight search [http://www.pluralsight.com/search/?searchTerm=react](for `React`)
+ - Safari Books [search for React](http://techbus.safaribooksonline.com/search?q=react)
+ - Pluralsight search [for `React`](http://www.pluralsight.com/search/?searchTerm=react)
 
 ## Blogs by Experts
- - By Pavan Podila [http://code.tutsplus.com/tutorials/intro-to-the-react-framework--net-35660](Intro to React Framework) (slightly dated)
+ - By Pavan Podila [Intro to React Framework](http://code.tutsplus.com/tutorials/intro-to-the-react-framework--net-35660) (slightly dated)
 
 ## Practice
-[http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/](Practical examples)
+[Practical examples](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)

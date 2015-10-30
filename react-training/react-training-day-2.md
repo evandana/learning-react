@@ -35,7 +35,7 @@
 
 <a name="react-lifecycle"></a>
 ## React Lifecycle
- - [https://facebook.github.io/react/docs/top-level-api.html](Top Level API)
+ - [Top Level API](https://facebook.github.io/react/docs/top-level-api.html)
  - `componentWillMount`
  - `componentDidMount` imperative things (measure an element or AJAX request for data)
  - `componentWillReceiveProps`
@@ -107,7 +107,7 @@
 <a name="animation"></a>
 # Animation
  - animation is rendering based on state, which is basic ReactJS
- - [https://facebook.github.io/react/docs/animation.html#low-level-api-reacttransitiongroup](Low-level documentation)
+ - [Low-level documentation](https://facebook.github.io/react/docs/animation.html#low-level-api-reacttransitiongroup)
  ```md
  	componentWillAppear(callback)
 	This is called at the same time as componentDidMount() for components that are initially mounted in a TransitionGroup. It will block other animations from occurring until callback is called. It is only called on the initial render of a TransitionGroup.
@@ -130,19 +130,19 @@
  - add `TransitionGroup component="ul"` to the parent
  - add "TransitionItem" component for the child that creates the right element
  - `this.getTweeningValue()` from `react-tween-state` will handle transitions as states change (this is a `mixin`)
- - [https://github.com/chenglou/react-motion](ReactJS Motion API)
+ - [ReactJS Motion API](https://github.com/chenglou/react-motion)
  	+ more "natural" motion
- 	+ [http://chenglou.me/react-motion/demos/demo8-draggable-list/](draggable list)
+ 	+ [draggable list](http://chenglou.me/react-motion/demos/demo8-draggable-list/)
  - use callbacks for *sequencing*
 
 <a name="router"></a>
 # Router
- - [https://github.com/rackt/react-router](React Router)
+ - [React Router](https://github.com/rackt/react-router)
  - nest routes
  - declarative
- - [https://github.com/rackt/react-router/tree/master/examples](see examples)
+ - [see examples](https://github.com/rackt/react-router/tree/master/examples)
      + ReactCSSTransitionGroup
-     + modal route with parent route in background and modal route works independently [https://github.com/rackt/react-router/tree/master/examples/pinterest](example)
+     + modal route with parent route in background and modal route works independently [example](https://github.com/rackt/react-router/tree/master/examples/pinterest)
 
 <a name="code-smells"></a>
 ## Code Smells
@@ -158,10 +158,10 @@
 <a name="todo"></a>
 # TODO
   - Research **Oreillei** (AngularJS 2.0 split)
-  - Research [https://greensock.com/](Greensock) aka "GSAP"
-  - Research [Velocity](http://julian.com/research/velocity/)
+  - Research [Greensock](https://greensock.com/) aka "GSAP"
+  - Research [http://julian.com/research/velocity/](Velocity)
   - Research angularmeractimerbone
-  - 
+  -
 
 <a name="tips"></a>
 # Tips
