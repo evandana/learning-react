@@ -1,19 +1,19 @@
 <!-- MarkdownTOC -->
 
-- [Developing ReactJS][developing-reactjs]
-    - [Why React?][why-react]
-    - [React Philosophy][react-philosophy]
-    - [React Lifecycle][react-lifecycle]
-    - [Classes?][classes]
-    - [Bringing new tech into a feature set][bringing-new-tech-into-a-feature-set]
-    - [Backbone TODO MVC][backbone-todo-mvc]
-- [Flux][flux]
-- [Animation][animation]
-- [Router][router]
-    - [Code Smells][code-smells]
-- [Questions][questions]
-- [TODO][todo]
-- [Tips][tips]
+- [Developing ReactJS](#developing-reactjs)
+	- [Why React?](#why-react)
+	- [React Philosophy](#react-philosophy)
+	- [React Lifecycle](#react-lifecycle)
+	- [Classes?](#classes)
+	- [Bringing new tech into a feature set](#bringing-new-tech-into-a-feature-set)
+	- [Backbone TODO MVC](#backbone-todo-mvc)
+- [Flux](#flux)
+- [Animation](#animation)
+- [Router](#router)
+	- [Code Smells](#code-smells)
+- [Questions](#questions)
+- [TODO](#todo)
+- [Tips](#tips)
 
 <!-- /MarkdownTOC -->
 
@@ -36,7 +36,7 @@
 <a name="react-lifecycle"></a>
 ## React Lifecycle
  - [https://facebook.github.io/react/docs/top-level-api.html](Top Level API)
- - `componentWillMount` 
+ - `componentWillMount`
  - `componentDidMount` imperative things (measure an element or AJAX request for data)
  - `componentWillReceiveProps`
  - `shouldComponentUpdate`
@@ -103,7 +103,7 @@
  		* Stores subsscribe to dispatchers
  		* Views subscribe to stores
  		* Actions should *NOT* trigger other actions
- 	
+
 <a name="animation"></a>
 # Animation
  - animation is rendering based on state, which is basic ReactJS
@@ -157,7 +157,7 @@
 
 <a name="todo"></a>
 # TODO
-  - Research **Oreillei** (AngularJS 2.0 split)	
+  - Research **Oreillei** (AngularJS 2.0 split)
   - Research [https://greensock.com/](Greensock) aka "GSAP"
   - Research [Velocity](http://julian.com/research/velocity/)
   - Research angularmeractimerbone

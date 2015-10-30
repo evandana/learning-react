@@ -1,24 +1,24 @@
 <!-- MarkdownTOC -->
 
-- [Intro][intro]
-	- [Michael Jackson][michael-jackson]
-	- [Ryan Florence][ryan-florence]
-	- [Why React][why-react]
-	- [Stocks VS. Flows][stocks-vs-flows]
-	- [ES6][es6]
-- [React Basics][react-basics]
-	- [Events][events]
-	- [React.render()][reactrender]
-	- [State][state]
-	- [Components][components]
-- [Props VS State][props-vs-state]
-- [Testing][testing]
-- [Career Growth][career-growth]
-	- [Exciting things to focus on][exciting-things-to-focus-on]
-- [Tools][tools]
-- [General Tips][general-tips]
-	- [To fix `sudo npm install`][to-fix-sudo-npm-install]
-	- [Questions][questions]
+- [Intro](#intro)
+    - [Michael Jackson](#michael-jackson)
+    - [Ryan Florence](#ryan-florence)
+    - [Why React](#why-react)
+    - [Stocks VS. Flows](#stocks-vs-flows)
+    - [ES6](#es6)
+- [React Basics](#react-basics)
+    - [Events](#events)
+    - [React.render()](#reactrender)
+    - [State](#state)
+    - [Components](#components)
+- [Props VS State](#props-vs-state)
+- [Testing](#testing)
+- [Career Growth](#career-growth)
+    - [Exciting things to focus on](#exciting-things-to-focus-on)
+- [Tools](#tools)
+- [General Tips](#general-tips)
+    - [Other tips](#other-tips)
+    - [Questions](#questions)
 
 <!-- /MarkdownTOC -->
 [./react-fundamentals](local react-fundamentals folder)
@@ -49,7 +49,7 @@
  		- hard to find out where vars/functions originate
  		- global directives that can overwrite others (namespace hell)
  		- observes data, but totally recreates dom if new object found
- 		- 
+ 		-
  	- EmberJS
  - Requires only knowledge of JS and a bit of JSX (but more obvious)
  	- Encourages learning JS
@@ -110,7 +110,7 @@
  	- `propTypes` (*interface*! - what JS has been lacking!)
  		- essentially interface documentation, but shows warnings in console on errors
  		- can be enforced with `ESLint`
- 		- custom prop types account for email validation, user 
+ 		- custom prop types account for email validation, user
 	```javascript
 		// prop-types.js
 		var userPropType = React.PropTypes.shape({
@@ -125,7 +125,7 @@
 	 		users: React.PropTypes.arrayOf(userPropType)
 	 	}
 	```
-	- `getDefaultProps` returns default prop 
+	- `getDefaultProps` returns default prop
 - **Controller components**
 	- Wrap components and handle state or other attributes
 
@@ -138,7 +138,7 @@
  - use **Controller Components** to manage state of a Component
  - naming conventions
  	- `stateless`, `stateful`, etc...
- 
+
 <a name="testing"></a>
 # Testing
  - Don't test the `props` or `state` becuase they are not the **output** of the function
@@ -166,14 +166,17 @@ Learn **VIM** and **MacVIM** and become a power-user
 # General Tips
 
 <a name="to-fix-sudo-npm-install"></a>
-## To fix `sudo npm install`
+### To fix `sudo npm install`
  1. `sudo rm -rf ~/.npm`
  2. Repeat for `node_modules` and any other affected directories
  3. `npm install` (never use `sudo`)
- ## $0 gets the element sleected in Chrome dev tools
- ## add `debugger` into code and then you can see the function calls it gets turned into
- 4. **Poor man's debugger**: `<pre>{JSON.stringify(state, null, 2)}</pre>`
- 5. `<collection>.**every**( item => item.val ) // is every item equal to that val`
+
+<a name="other-tips"></a>
+## Other tips
+ * $0 gets the element sleected in Chrome dev tools
+ * add `debugger` into code and then you can see the function calls it gets turned into
+ * **Poor man's debugger**: `<pre>{JSON.stringify(state, null, 2)}</pre>`
+ * `<collection>.**every**( item => item.val ) // is every item equal to that val`
 
 <a name="questions"></a>
 ## Questions
