@@ -1,16 +1,16 @@
 <!-- MarkdownTOC -->
 
 - [Developing ReactJS][developing-reactjs]
-	- [Why React?][why-react]
-	- [React Philosophy][react-philosophy]
-	- [React Lifecycle][react-lifecycle]
-	- [Classes?][classes]
-	- [Bringing new tech into a feature set][bringing-new-tech-into-a-feature-set]
-	- [Backbone TODO MVC][backbone-todo-mvc]
+    - [Why React?][why-react]
+    - [React Philosophy][react-philosophy]
+    - [React Lifecycle][react-lifecycle]
+    - [Classes?][classes]
+    - [Bringing new tech into a feature set][bringing-new-tech-into-a-feature-set]
+    - [Backbone TODO MVC][backbone-todo-mvc]
 - [Flux][flux]
 - [Animation][animation]
 - [Router][router]
-	- [Code Smells][code-smells]
+    - [Code Smells][code-smells]
 - [Questions][questions]
 - [TODO][todo]
 - [Tips][tips]
@@ -31,6 +31,7 @@
  - What state do I have?
  - When do I change state?
  - Explicit over implicit
+ - pass array of states to app to replay specific scenario
 
 <a name="react-lifecycle"></a>
 ## React Lifecycle
@@ -137,7 +138,11 @@
 <a name="router"></a>
 # Router
  - [https://github.com/rackt/react-router](React Router)
- - 
+ - nest routes
+ - declarative
+ - [https://github.com/rackt/react-router/tree/master/examples](see examples)
+     + ReactCSSTransitionGroup
+     + modal route with parent route in background and modal route works independently [https://github.com/rackt/react-router/tree/master/examples/pinterest](example)
 
 <a name="code-smells"></a>
 ## Code Smells
@@ -156,6 +161,7 @@
   - Research [https://greensock.com/](Greensock) aka "GSAP"
   - Research [Velocity](http://julian.com/research/velocity/)
   - Research angularmeractimerbone
+  - 
 
 <a name="tips"></a>
 # Tips
