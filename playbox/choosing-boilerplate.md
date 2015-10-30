@@ -27,7 +27,7 @@
 | webpack version in `package.json` | ^1.8.1                                                          | 1.10.1                                                                  |
 | [Vagrant][vagrant]                | required                                                        | n/a                                                                     |
 | last update                       | 2015-09-01                                                      | 2015-07-28                                                              |
-| client files                      | ![./choosing-boilerplate/webpack-react-starter.png](screenshot) | ![./choosing-boilerplate/srn-react-webpack-boilerplate.png](screenshot) |
+| client files                      | ![screenshot](./choosing-boilerplate/webpack-react-starter.png) | ![screenshot](./choosing-boilerplate/srn-react-webpack-boilerplate.png) |
 | router                            | `"react-router": "^0.13.2"``                                    | ?                                                                       |
 | server                            | `"webpack-dev-server": "^1.4.7"` and  `"express": "^4.7.2"`     | `"webpack-dev-server": "1.10.1"` and `"express": "4.13.1"`              |
 | react                             | `"react": "^0.13.1"`                                            | `"react": "0.13.3"`                                                     |
