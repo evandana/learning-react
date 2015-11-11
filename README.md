@@ -20,7 +20,7 @@ Documenting the process of learning ReactJS
 <a name="choosing-react-webpack-boilerplate"></a>
 ## Choosing React-webpack-boilerplate
 
- - [Chooing a boilerplate](https://github.com/evandana/learning-react/blob/master/playbox/choosing-boilerplate.md)
+ - [Chooing a boilerplate](https://github.com/evandana/learning-react/blob/master/notes-while-creating-react-starter-todo/choosing-boilerplate.md)
 
 Options
 
