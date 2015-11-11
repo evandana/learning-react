@@ -27,7 +27,7 @@ Building on my previous simple [JSBin Todo App](http://output.jsbin.com/rahize) 
  - Experience with [Flux](#flux)/[Redux](#redux)
 
 #### Credits
-Huge credit and thanks go out to the eloquent and elegant explanations on [code-cartoons.com](http://code-cartoons.com) (see [Resources](#resources)). Read the articles, they are content-rich yet quite approachable. The notes you read below are my personal reminders about key concepts and should not be substituted for thorough research on these topics.
+Huge credit and thanks go out to the eloquent and elegant explanations on [code-cartoons.com](http://code-cartoons.com) and by [Dan Abramov](http://stackoverflow.com/users/458193/dan-abramov) (see [Resources](#resources)). Read the articles, they are content-rich yet quite approachable. The notes you read below are my personal reminders about key concepts and should not be substituted for thorough research on these topics.
 
 
 <a name="flux"></a>
@@ -56,34 +56,71 @@ Unidirectional data flow pattern and a Dispatcher library. In essence: it is pat
  - **View**
      + Renders data to the DOM
 
+#### Initialization and Data Flow Diagrams
+
+I'm not going to try to summarize the great work already done. Follow these links: [initialization](https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207#609c) and [data flow diagrams](https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207#d130)
+
 <a name="redux"></a>
 ## Redux
 
 #### The Problem It Solves
 
-Confusing data flows from event-driven, cascading, and asyc data updates triggered by models and views.
+Builds on the Flux solution with capabilities to:
+ - Have better dev tools
+ - Reload store files without erasing state
+ - Allow for [time travel debugging](#time-travel-debugging)]
+ - Provide easy access for 3rd party plugins
 
 #### Its Solution
 
-Unidirectional data flow pattern and a Dispatcher library. In essence: it is pattern of synchroneous hooks and async callbacks as directed by the Dispatcher.
+Those benefits are achieved by:
+ - Separating the state data from state logic
+ - Instead of just changing state, copy then change a state
+ - Wrap parts for easy access and use a tree structure for state change logic
 
 #### Players
 
  - **Action Creator**
-     + Creates an action (*type* and *payload*) and sends to *Dispatcher*
- - **Dispatcher**
-     + Pass every action from *Action Creator* to all *Stores* (synchroneous)
+     + Return a formatted *action object* to *Components*
+     + (Do NOT send action to Dispatcher)
  - **Store**
-     + State and state changing logic
-     + Uses a `switch()` statement based on *action type*
-     + Emits a *change event* to *Controller View*
- - **Controller View**
-     + Passes updated data to the *View*
- - **View**
-     + Renders data to the DOM
+     + Holds state
+     + Delegates change logic to *Reducers*
+     + Only 1 store
+ - **Reducers**
+     + Copy state
+     + Update that copy
+     + Pass back to Root Reducer
+ - **Components**
+     + *Smart Components*
+         * In charge of actions
+         * Pass methods to *Dumb Components*
+         * Do not have their own CSS or DOM
+     + *Dumb Components*
+         * Have CSS and DOM
+         * Receive actions through props from *Smart Components*
+ - **View Layer Binding**
+     + Connects *Components* to *Store*
+         * *Provider Component*: Wraps and enables `connect()`
+         * *`connect()`*: Provided by Redux and sets up *state* updates
+         * *Selector*: Function that specifies the requried *state* properties
+ - **Root Component**
+     + Initializes app
+     + Creates *Store* and indicates which *Reducers* to use
+     + Brings together *View Layer Binding* and *Views*
+
+#### Initialization and Data Flow Diagrams
+
+I'm not going to try to summarize the great work already done. Follow these links: [initialization](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6#a35b) and [data flow diagrams](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6#cc8e)
 
 <a name="time-travel-debugging"></a>
 ## Time Travel Debugging
+
+By managing a history of states, Redux allows moving to any prior state.
+
+Imagine being able to have the QA team send packaged up state historys so the dev team can automatically recreate the scenario exactly.
+
+More eloquently and descriptively worded in this article: [Hot reloading and time travel debugging](https://code-cartoons.com/hot-reloading-and-time-travel-debugging-what-are-they-3c8ed2812f35).
 
 
 <a name="resources"></a>
@@ -92,3 +129,4 @@ Unidirectional data flow pattern and a Dispatcher library. In essence: it is pat
  - [A cartoon guide to Flux](https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207#.vbvrwcm14)
  - [A cartoon intro to Redux](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6#.8810iq8iu)
  - [Hot reloading and time travel debugging](https://code-cartoons.com/hot-reloading-and-time-travel-debugging-what-are-they-3c8ed2812f35)
+ - [StackOverflow: Redux VS Flux by Redux author](http://stackoverflow.com/questions/32461229/why-use-redux-over-facebook-flux/32920459#32920459)
